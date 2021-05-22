@@ -1,4 +1,4 @@
-package africa.semicolon;
+package ChapterTwoExercises;
 
 public class DisplayingShapesWithAsterisks {
     public static void main(String...args){
