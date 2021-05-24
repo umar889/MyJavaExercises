@@ -8,7 +8,7 @@ public class SecondComparison {
         int firstNumber;
         int secondNumber;
         int thirdNumber;
-        int result;
+        int result;9
         int largest = 0;
         int smallest = 0;
 
