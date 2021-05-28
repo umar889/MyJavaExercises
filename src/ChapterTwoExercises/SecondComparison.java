@@ -1,4 +1,4 @@
-package ChapterTwoExercises;
+/* package ChapterTwoExercises;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class SecondComparison {
         int firstNumber;
         int secondNumber;
         int thirdNumber;
-        int result;9
+        int result;
         int largest = 0;
         int smallest = 0;
 
@@ -47,6 +47,5 @@ public class SecondComparison {
             smallest = thirdNumber;
         }
         System.out.printf("The largest is %d%n", largest);
-        System.out.printf("The smallest is %d%n", smallest);
-    }
-}
+        System.out.printf("The smallest is %d%n", smallest); */
+
