@@ -15,7 +15,7 @@ public class ChristMasSong {
 
             switch (userPrompt) {
                 case 1:
-                    day = "First day";
+                    day = "first day";
                     break;
                 case 2:
                     day = "Second day";
@@ -49,44 +49,44 @@ public class ChristMasSong {
                 case 12:
                     day = "Twelve day";
             }
-            System.out.printf("On the %s of Christmas my true love gave to me", day);
+            System.out.printf("On the %s of Christmas my true love gave to me ", day);
 
             switch (userPrompt) {
                 case 12:
-                    System.out.println("twelve day Ladies dancing");
+                    System.out.println("twelve Ladies dancing");
 
                 case 11:
-                    System.out.println(" eleven day Lords a-leaping");
+                    System.out.println("eleven Lords a-leaping");
 
                 case 10:
-                    System.out.println(" ten day Drummers drumming");
+                    System.out.println("ten Drummers drumming");
 
                 case 9:
-                    System.out.println("nine day Pipers piping");
+                    System.out.println("nine Pipers piping");
 
                 case 8:
-                    System.out.println(" eight day Maids a-milking");
+                    System.out.println("eight Maids a-milking");
 
                 case 7:
-                    System.out.println(" seven day Swans a-swimming Maids a-");
+                    System.out.println("seven Swans a-swimming Maids a-");
 
                 case 6:
-                    System.out.println(" six day Geese a-laying");
+                    System.out.println("six Geese a-laying");
 
                 case 5:
-                    System.out.println(" five day Golden rings");
+                    System.out.println("five Golden rings");
 
                 case 4:
-                    System.out.println(" four day Collie birds");
+                    System.out.println("four Collie birds");
 
                 case 3:
-                    System.out.println("French hens");
+                    System.out.println("three French hens");
 
                 case 2:
-                    System.out.println(" two day Turtle doves");
+                    System.out.println("two Turtle doves");
 
                 case 1:
-                    System.out.println("Partridge in a pear tree");
+                    System.out.println("a Partridge in a pear tree");
 
             }
         }
