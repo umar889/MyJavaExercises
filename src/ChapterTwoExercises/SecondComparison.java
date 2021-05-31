@@ -47,5 +47,8 @@ public class SecondComparison {
             smallest = thirdNumber;
         }
         System.out.printf("The largest is %d%n", largest);
-        System.out.printf("The smallest is %d%n", smallest); */
+        System.out.printf("The smallest is %d%n", smallest);
 
+    }
+
+}

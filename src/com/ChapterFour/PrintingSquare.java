@@ -13,8 +13,8 @@ public class PrintingSquare {
         int counter1 = 0;
         int counter2 = 0;
 
-
-        while (counter < userInput - 1) {
+        while (counter < userInput - 1) ;
+        {
             System.out.print("* ");
 
             counter++;
@@ -27,13 +27,12 @@ public class PrintingSquare {
 
         while (counter2 < userInput) {
             System.out.print("* ");
-                counter2++;
-            }
+            counter2++;
+
 
         }
+
     }
 
-
-
-
+}
 

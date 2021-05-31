@@ -3,7 +3,7 @@ package com.ChapterFour;
 import java.util.Scanner;
 
 public class Palindrome {
-    public String palindrome(int number){
+    public int palindrome(int number){
     int store=number;
     int remainder;
     int sum = 0;
@@ -12,11 +12,11 @@ public class Palindrome {
         sum = sum * 10 + remainder;
         number /= 10;
     }
-
-        if(sum==store) {
-            return "number is a Palindrome";
-    }
-        return "number is not a Palindrome";
+//
+//        if(sum==store) {
+//            return "number is a Palindrome";
+//    }
+        return sum;//"number is not a Palindrome";
 }
     public static void main(String[] args) {
         Palindrome palindrome=new Palindrome();

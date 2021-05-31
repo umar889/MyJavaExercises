@@ -1,4 +1,6 @@
- import java.util.Scanner;
+package ChapterTwoExercises;
+
+import java.util.Scanner;
 
 public class StudentsScores {
     public static void main(String... args) {

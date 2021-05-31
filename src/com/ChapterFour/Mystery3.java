@@ -1,3 +1,5 @@
+package com.ChapterFour;
+
 public class Mystery3 {
     public static void main(String[] args) {
         int row = 0;
