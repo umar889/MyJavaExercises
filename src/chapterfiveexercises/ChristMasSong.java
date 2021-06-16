@@ -1,4 +1,4 @@
-package africa.semicolon;
+package chapterfiveexercises;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
