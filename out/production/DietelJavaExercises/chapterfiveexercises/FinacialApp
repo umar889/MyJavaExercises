@@ -1,0 +1,24 @@
+package chapterfiveexercises;
+
+public class TuitionFee {
+    private static double Tuition;
+
+    public static void main(String[] args) {
+        double tuition = 10000;
+        double rate = 0.05;
+        int counter = 0;
+
+        for (int i = 1; i <= 14; counter++) {
+
+            tuition = tuition + rate;
+            if (i == 10){
+                System.out.printf("the tuition for ten years is: %f",Math.round(Tuition * 100.0 /100.0));
+            }
+
+
+        }
+        System.out.println("Tuition 14 years is:" + Math.round(Tuition * 100.0) / 100);
+    }
+
+}
+
