@@ -7,9 +7,9 @@ public class PrintAsterisks {
 
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
-        System.out.println("* ");
+        System.out.println("*                 *");
         for (int j = i; j <= i - 1; j++) {
-            System.out.print(" **");
+            System.out.print(" *");
         }
 
         for (int j = 1; j <= i - 1; j++) {
@@ -20,7 +20,7 @@ public class PrintAsterisks {
         }
 
         for (int j = 1; j <= 10 - i ; j++) {
-            System.out.print(" ");
+            System.out.print("* ");
         }
 
         for (int j = 1; j <= i ; j++) {
@@ -29,6 +29,7 @@ public class PrintAsterisks {
 
         System.out.println();
         Thread.sleep(1000);
+
         }
     }
 
