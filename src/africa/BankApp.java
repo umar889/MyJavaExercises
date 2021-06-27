@@ -1,4 +1,6 @@
 package africa;
+import africa.Chaptereight.AccountPhb;
+
 import java.util.*;
 
 
@@ -66,7 +68,7 @@ public class BankApp {
                     String type = input.next();
                     System.out.println("Enter Initial Balance: ");
                     int bal = input.nextInt();
-//           class BankAccountnew BankAccount(nn, num, type, bal);
+//          class BankAccountnew BankAccount(nn, num, type, bal);
 
                     int menu;
                     System.out.println("Menu");
@@ -78,18 +80,18 @@ public class BankApp {
                     do {
                         System.out.print("Please enter your choice: ");
                         menu = input.nextInt();
+                        AccountPhb b1 = new AccountPhb();
                         switch (menu) {
                             case 1:
-                                Bank b1 = null;
-                                b1.deposit();
+                                b1.deposit(1000);
                                 break;
 
                             case 2:
-                                int b1 = 0;
+                                b1.withdraw(100);
                                 break;
 
                             case 3:
-                               b1.display();
+                                b1.transfer(1000);
                                 break;
 
                             case 4:
