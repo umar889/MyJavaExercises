@@ -56,17 +56,17 @@ public class Bank_Application_Test {
 
     }
 
-//    @Test
-//    public void testThatICanWithdraw() {
-//        myBank_Phb = new Bank_App("Shola", "Umar", 0.0);
-//        myBank_Phb.withdraw(500);
-//        assertEquals(1000.00, myBank_Phb.getbalance());
-//    }
+    @Test
+    public void testThatICanWithdraw() {
+        myBank_Phb = new Bank_App("Shola", "Umar", 0.0);
+        myBank_Phb.withdraw(500);
+        assertEquals(1000.00, myBank_Phb.getbalance());
+    }
 }
-//    @Test
-//    public void testThatICanLoadAirterm(){
-//        myBank_Phb = new Bank_App("Shola", "Umar", 0.0);
-//        myBank_Phb.Loadairterm(50.00);
-//        assertEquals();
-//    }
-//}
+    @Test
+    public void testThatICanLoadAirterm(){
+        myBank_Phb = new Bank_App("Shola", "Umar", 0.0);
+        myBank_Phb.Loadairterm(50.00);
+        assertEquals();
+    }
+
