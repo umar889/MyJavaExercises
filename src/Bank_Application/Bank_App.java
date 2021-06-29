@@ -42,5 +42,9 @@ public class Bank_App {
     public double getbalance() {
         return 0;
     }
+
+    public void Loadairterm(double v) {
+        return balance =
+    }
 }
 
