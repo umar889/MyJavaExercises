@@ -4,6 +4,7 @@ public class Bank_App {
     private String firstName;
     private String lastName;
     private double balance;
+    private double Airtem;
 
     public Bank_App(String firstName, String lastName, double balance) {
         this.firstName = firstName;
@@ -43,8 +44,8 @@ public class Bank_App {
         return 0;
     }
 
-    public void Loadairterm(double v) {
-        return balance =
+    public double Loadairterm(double airterm) {
+        return balance =Airtem;
     }
 }
 

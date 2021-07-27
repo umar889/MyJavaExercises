@@ -5,7 +5,7 @@ import java.util.*;
 
 
 public class BankApp {
-    static class Stsff {
+    static class Staff {
         private Object BankAccount;
 
         public static void main(String[] args) {
@@ -58,7 +58,7 @@ public class BankApp {
             void dbal () {
                 System.out.println("Balance:" + bal);
                 {
-//                    public static <BankAccount > void main (String args[]){
+
                     System.out.println("Enter your Name: ");
                     String nn = input.nextLine();
                     System.out.println("Enter Account Number: ");
@@ -68,7 +68,6 @@ public class BankApp {
                     String type = input.next();
                     System.out.println("Enter Initial Balance: ");
                     int bal = input.nextInt();
-//          class BankAccountnew BankAccount(nn, num, type, bal);
 
                     int menu;
                     System.out.println("Menu");
@@ -98,7 +97,7 @@ public class BankApp {
                                 quit = true;
                                 break;
                             default:
-                                throw new IllegalStateException("Unexpected value: " + menu);
+//                                throw new IllegalStateException("Unexpected value: " + menu);
                         }
                     } while (!quit);
                 }
